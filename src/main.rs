@@ -1,6 +1,6 @@
-mod part1;
+mod day1;
 
-use crate::part1::read_line_from_file;
+use crate::day1::read_line_from_file;
 
 fn main() {
     // part1_solution();
