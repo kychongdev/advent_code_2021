@@ -1,5 +1,5 @@
 use std::fs::File;
-use std::io::{BufRead, BufReader};
+use std::io::{prelude::*, BufReader};
 use std::path::Path;
 
 pub fn read_line_from_file(filename: impl AsRef<Path>) -> Vec<i32> {
